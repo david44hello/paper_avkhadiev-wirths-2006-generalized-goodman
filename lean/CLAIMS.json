@@ -1,8 +1,17 @@
 {
   "paper": [
     {
+      "place": "Title — resolution of the generalized Goodman conjecture",
+      "lines": "v2.60 41",
+      "status": "PROVED GIVEN H1",
+      "claim": "The focused title refers to Conjecture 1, the unweighted coefficient bound for every admissible pole, Schwarz function and positive degree.",
+      "declarations": "Goodman.unweighted_goodman",
+      "anchor": "Title",
+      "source_words": "generalized Goodman conjecture is true"
+    },
+    {
       "place": "The sharp bound before composition",
-      "lines": "v2.50 49–53",
+      "lines": "v2.60 51–55",
       "status": "PROVED GIVEN H1",
       "claim": "For n ≥ 1, the nth Taylor coefficient of f at zero has modulus at most Aₙ(p) = (1−p²ⁿ)/((1−p²)pⁿ⁻¹). The bound is sharp at every degree.",
       "declarations": "Goodman.base_coefficient_bound Goodman.A_closed Goodman.isM_extremal Goodman.coeff_extremal_of_ne_zero Goodman.A_positive",
@@ -11,7 +20,7 @@
     },
     {
       "place": "Taylor coefficients of the subordinate map",
-      "lines": "v2.50 51–55",
+      "lines": "v2.60 53–57",
       "status": "PROVED",
       "claim": "If h maps the disk holomorphically into itself and fixes zero, f∘h is holomorphic near zero even when it has poles elsewhere in the disk.",
       "declarations": "Goodman.IsM.finite_comp_of_norm_lt",
@@ -20,7 +29,7 @@
     },
     {
       "place": "The unweighted bound in all degrees",
-      "lines": "v2.50 61–68",
+      "lines": "v2.60 63–70",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For every n ≥ 1 and 0 < p < 1, the nth coefficient of f∘h has modulus at most Aₙ(p). Equality at n ≥ 2 requires both the extremal f(z) = z/((1−pz)(1−z/p)) and a rotation h.",
       "declarations": "Goodman.theorem_one_bound Goodman.theorem_one_higher_equality",
@@ -29,7 +38,7 @@
     },
     {
       "place": "Two derivative conjectures of 2008",
-      "lines": "v2.50 68–71",
+      "lines": "v2.60 70–73",
       "status": "PROVED GIVEN H1, H3, H4",
       "claim": "Theorem 3 gives the sharp bounds conjectured by Avkhadiev and Wirths in 2008 for derivatives of order n ≥ 2 at finite values of a meromorphic map. Its source is the disk or a proper convex plane domain, and its target is a simply connected spherical domain omitting at least two points.",
       "declarations": "Goodman.theorem_three_disk Goodman.theorem_three_convex Goodman.diskSharpModel Goodman.convexSharpModel",
@@ -38,7 +47,7 @@
     },
     {
       "place": "Three ingredients of the coefficient estimate",
-      "lines": "v2.50 61–66",
+      "lines": "v2.60 63–68",
       "status": "PROVED GIVEN H1",
       "claim": "For each coefficient index the transfer lemma supplies a holomorphic disk weight bounded by one. The slit map fixes zero and has positive Taylor coefficients in positive degrees. Robertson’s inequality bounds the odd coefficients used in the product estimate.",
       "declarations": "Goodman.lemma_four Goodman.lemma_five Goodman.product_of_robertson",
@@ -47,7 +56,7 @@
     },
     {
       "place": "The disk of the Taylor expansion",
-      "lines": "v2.50 112–113",
+      "lines": "v2.60 114–115",
       "status": "PROVED",
       "claim": "Every f in M(p) is holomorphic on |z| < p, where its Taylor series has constant term zero and linear term z.",
       "declarations": "Goodman.IsM.finite_comp_of_norm_lt Goodman.IsM.taylor_in_inner_disk Goodman.IsM.normalized_coefficients",
@@ -56,7 +65,7 @@
     },
     {
       "place": "The coefficient estimate for M(p)",
-      "lines": "v2.50 114–119",
+      "lines": "v2.60 116–121",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For f in M(p) and n ≥ 1, |[zⁿ]f| ≤ Aₙ(p), with equality attained by fₚ.",
       "declarations": "Goodman.base_coefficient_bound Goodman.base_equality Goodman.isM_extremal Goodman.coeff_extremal_of_ne_zero",
@@ -65,7 +74,7 @@
     },
     {
       "place": "Two expressions for the coefficient bound",
-      "lines": "v2.50 115–118",
+      "lines": "v2.60 117–120",
       "status": "PROVED",
       "claim": "For n ≥ 1 and 0 < p < 1, Aₙ(p) = p¹⁻ⁿ(1+p²+⋯+p²ⁿ⁻²) = (1−p²ⁿ)/((1−p²)pⁿ⁻¹).",
       "declarations": "Goodman.A_closed",
@@ -74,7 +83,7 @@
     },
     {
       "place": "Uniqueness of the unweighted base extremal",
-      "lines": "v2.50 118–132",
+      "lines": "v2.60 120–134",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For each n ≥ 2, a function f in M(p) attains |[zⁿ]f| = Aₙ(p) exactly when f = fₚ on the disk.",
       "declarations": "Goodman.base_equality",
@@ -83,7 +92,7 @@
     },
     {
       "place": "Coefficients of the rational extremal",
-      "lines": "v2.50 123–124",
+      "lines": "v2.60 125–126",
       "status": "PROVED",
       "claim": "For every n ≥ 1, [zⁿ]fₚ = Aₙ(p). The same function attains all the base bounds.",
       "declarations": "Goodman.extremal_hasSum Goodman.coeff_extremal_of_ne_zero Goodman.isM_extremal",
@@ -92,7 +101,7 @@
     },
     {
       "place": "Poles and regularity of the composition",
-      "lines": "v2.50 136–141",
+      "lines": "v2.60 138–143",
       "status": "PROVED",
       "claim": "For f in M(p) and a Schwarz function h, f∘h is meromorphic on 𝔻 with poles exactly where h(z) = p. It is holomorphic on |z| < p.",
       "declarations": "Goodman.IsM.composition_holomorphic Goodman.IsM.composition_poles Goodman.IsM.finite_comp_of_norm_lt Goodman.IsM.taylor_in_inner_disk",
@@ -101,7 +110,7 @@
     },
     {
       "place": "Loss of injectivity under subordination",
-      "lines": "v2.50 137–138",
+      "lines": "v2.60 139–140",
       "status": "PROVED",
       "claim": "Even for f in M(p), f∘h can fail to be injective. For instance, h ≡ 0 gives a constant composite.",
       "declarations": "Goodman.noninjective_composition_example",
@@ -110,7 +119,7 @@
     },
     {
       "place": "Conjecture 1 — the generalized Goodman bound",
-      "lines": "v2.50 143–149",
+      "lines": "v2.60 145–151",
       "status": "PROVED GIVEN H1",
       "claim": "For every 0 < p < 1, every f in M(p), every Schwarz function h, and every n ≥ 1, |[zⁿ](f∘h)| ≤ Aₙ(p).",
       "declarations": "Goodman.unweighted_goodman",
@@ -119,7 +128,7 @@
     },
     {
       "place": "Rogosinski’s holomorphic coefficient bound",
-      "lines": "v2.50 156–161",
+      "lines": "v2.60 160–165",
       "status": "PROVED GIVEN H1",
       "claim": "For F in S, every Schwarz function h, and n ≥ 1, |[zⁿ](F∘h)| ≤ n.",
       "declarations": "Goodman.rogosinski_weighted",
@@ -128,7 +137,7 @@
     },
     {
       "place": "The limit as the pole approaches the circle",
-      "lines": "v2.50 158–161",
+      "lines": "v2.60 162–165",
       "status": "PROVED",
       "claim": "For each fixed n ≥ 1, Aₙ(p) tends to n as p increases to 1.",
       "declarations": "Goodman.A_tendsto_one",
@@ -137,7 +146,7 @@
     },
     {
       "place": "Figure 1 — coverage of Theorem 1",
-      "lines": "v2.50 177–182",
+      "lines": "v2.60 187–193",
       "status": "PROVED GIVEN H1",
       "claim": "The right panel represents the bound for all f in M(p), every 0 < p < 1, and every n ≥ 1, including the degrees beyond those displayed.",
       "declarations": "Goodman.theorem_one_bound",
@@ -146,7 +155,7 @@
     },
     {
       "place": "Theorem 1 — coefficients with a bounded weight",
-      "lines": "v2.50 187–197",
+      "lines": "v2.60 198–208",
       "status": "PROVED GIVEN H1",
       "claim": "For 0 < p < 1, f in M(p), h a Schwarz function, and e holomorphic on 𝔻 with |e| ≤ 1, the nth Taylor coefficient of e · (f∘h) has modulus at most Aₙ(p) for every n ≥ 1.",
       "declarations": "Goodman.theorem_one_bound",
@@ -155,7 +164,7 @@
     },
     {
       "place": "Theorem 1 — equality in degree two and higher",
-      "lines": "v2.50 197–198",
+      "lines": "v2.60 208–209",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For e ≡ 1 and each n ≥ 2, equality holds exactly when f = fₚ on 𝔻 and h(z) = λz for a constant λ with |λ| = 1.",
       "declarations": "Goodman.theorem_one_higher_equality",
@@ -164,7 +173,7 @@
     },
     {
       "place": "Theorem 1 — equality in degree one",
-      "lines": "v2.50 199–201",
+      "lines": "v2.60 210–212",
       "status": "PROVED",
       "claim": "For e ≡ 1 and n = 1, every f in M(p) attains equality with precisely the Schwarz functions h(z) = λz, |λ| = 1.",
       "declarations": "Goodman.theorem_one_first_equality",
@@ -173,7 +182,7 @@
     },
     {
       "place": "Normalization of hyperbolic distance",
-      "lines": "v2.50 209–212",
+      "lines": "v2.60 220–223",
       "status": "PROVED",
       "claim": "The conformal radius is independent of the centered chart. Hyperbolic distance has curvature −4 normalization, so δ_𝔻(0,r) = artanh r for 0 ≤ r < 1.",
       "declarations": "Goodman.CenteredChart.radius_eq Goodman.CenteredChart.hypDistanceFrom_eq",
@@ -182,7 +191,7 @@
     },
     {
       "place": "Theorem 2 — distance to infinity",
-      "lines": "v2.50 214–218",
+      "lines": "v2.60 225–229",
       "status": "PROVED GIVEN H4",
       "claim": "When ∞ belongs to Π and w₀ = G(0) is finite, p = tanh δ_Π(w₀,∞) lies strictly between 0 and 1.",
       "declarations": "Goodman.riemannMapping_of_planarRiemannMapping Goodman.CenteredChart.poleParam_mem_Ioo",
@@ -191,7 +200,7 @@
     },
     {
       "place": "Theorem 2 — derivatives at the disk origin",
-      "lines": "v2.50 215–220",
+      "lines": "v2.60 226–231",
       "status": "PROVED GIVEN H1, H4",
       "claim": "For a holomorphic map G from 𝔻 into a simply connected spherical domain Π containing ∞ and omitting at least two points, with G(0) = w₀ finite, |G⁽ⁿ⁾(0)|/n! ≤ R(w₀,Π) Aₙ(p) for every n ≥ 1, where p = tanh δ_Π(w₀,∞).",
       "declarations": "Goodman.theorem_two_bound Goodman.A_closed",
@@ -200,7 +209,7 @@
     },
     {
       "place": "Theorem 2 — geometric equality criterion",
-      "lines": "v2.50 221–224",
+      "lines": "v2.60 232–235",
       "status": "PROVED GIVEN H1, H2, H4",
       "claim": "For each n ≥ 2, equality holds exactly when G maps 𝔻 conformally onto Π and the complement of Π is a line segment whose supporting line passes through w₀.",
       "declarations": "Goodman.theorem_two_equality",
@@ -209,7 +218,7 @@
     },
     {
       "place": "The endpoint coefficient bound for planar targets",
-      "lines": "v2.50 237–238",
+      "lines": "v2.60 248–249",
       "status": "PROVED",
       "claim": "At the planar endpoint p = 1, Aₖ(1) = k is the limit of Aₖ(p) as p increases to 1, for each k ≥ 1.",
       "declarations": "Goodman.A_at_one Goodman.A_tendsto_one",
@@ -218,7 +227,7 @@
     },
     {
       "place": "Closed form for the derivative bound",
-      "lines": "v2.50 240–245",
+      "lines": "v2.60 251–256",
       "status": "PROVED",
       "claim": "For 0 < p < 1 and 0 ≤ r ≤ 1, Dₙ(p,r) = ((r+1/p)ⁿ⁻¹ − p²(r+p)ⁿ⁻¹)/(1−p²).",
       "declarations": "Goodman.A_succ_binomial Goodman.D_closed",
@@ -227,7 +236,7 @@
     },
     {
       "place": "Theorem 3(a) — derivatives at a disk point",
-      "lines": "v2.50 247–253",
+      "lines": "v2.60 258–264",
       "status": "PROVED GIVEN H1, H4",
       "claim": "For meromorphic G from 𝔻 into a simply connected spherical domain Π omitting at least two points, at every z₀ with finite G(z₀) and every n ≥ 2, Rₛⁿ |G⁽ⁿ⁾(z₀)|/(n! Rₜ) ≤ Dₙ(p,|z₀|), including p = 1.",
       "declarations": "Goodman.theorem_three_disk",
@@ -236,7 +245,7 @@
     },
     {
       "place": "Theorem 3(b) — derivatives on a convex source",
-      "lines": "v2.50 247–255",
+      "lines": "v2.60 258–266",
       "status": "PROVED GIVEN H1, H3, H4",
       "claim": "For meromorphic G from a proper convex plane domain into a simply connected spherical domain Π omitting at least two points, at every z₀ with finite G(z₀) and every n ≥ 2, Rₛⁿ |G⁽ⁿ⁾(z₀)|/(n! Rₜ) ≤ Dₙ(p,1), including p = 1.",
       "declarations": "Goodman.theorem_three_convex",
@@ -245,7 +254,7 @@
     },
     {
       "place": "Theorem 3 — sharpness of both derivative bounds",
-      "lines": "v2.50 257–260",
+      "lines": "v2.60 268–271",
       "status": "PROVED",
       "claim": "Both bounds are attained for every 0 < p ≤ 1 and n ≥ 2. The extremal maps use fₚ, with the Koebe function f₁(z) = z/(1−z)² at p = 1.",
       "declarations": "Goodman.theorem_three_disk_extremal Goodman.theorem_three_convex_extremal Goodman.diskSharpModel Goodman.convexSharpModel Goodman.finitePart_extremal_one",
@@ -254,7 +263,7 @@
     },
     {
       "place": "Disk derivative bounds from earlier coefficient ranges",
-      "lines": "v2.50 266–268",
+      "lines": "v2.60 277–279",
       "status": "PROVED",
       "claim": "The disk change of center and the 2009 Theorem 8.3 already give Theorem 3(a) for n = 2 at all 0 < p < 1, for n = 3 at p < 0.7, and for n ≥ 4 at p < 1/(2n−2).",
       "declarations": "Goodman.disk_derivative_of_first_coeffs",
@@ -263,7 +272,7 @@
     },
     {
       "place": "Replacing composition by a bounded multiplier",
-      "lines": "v2.50 270–274",
+      "lines": "v2.60 281–285",
       "status": "PROVED",
       "claim": "For a fixed degree n, the nth coefficient of e · (f∘h) equals that of Ef for some holomorphic |E| ≤ 1. For e ≡ 1 the polynomial form occurs in Rogosinski’s work and in Szapiel’s later reduction.",
       "declarations": "Goodman.lemma_four",
@@ -272,7 +281,7 @@
     },
     {
       "place": "Removing the pole by a slit-disk chart",
-      "lines": "v2.50 275–280",
+      "lines": "v2.60 286–291",
       "status": "PROVED",
       "claim": "The conformal map q from 𝔻 ∖ [p,1) onto 𝔻 fixes zero and has positive coefficients in every positive degree. With slit-disk conformal radius R = 4p/(1+p)², the pullback (f∘q⁻¹)/R belongs to S.",
       "declarations": "Goodman.lemma_five Goodman.radius_slitDisk Goodman.full_slit_coordinates",
@@ -281,7 +290,7 @@
     },
     {
       "place": "Summing the product bounds against the slit coefficients",
-      "lines": "v2.50 280–286",
+      "lines": "v2.60 291–297",
       "status": "PROVED GIVEN H1",
       "claim": "Robertson’s inequality gives |[wᵏ](FE)| ≤ k for F in S and holomorphic |E| ≤ 1. Near zero, the resulting majorant R(q+2q²+3q³+⋯) equals fₚ.",
       "declarations": "Goodman.product_of_robertson Goodman.slit_pow_coeff_nonneg Goodman.slit_weight_sum Goodman.slit_majorant_hasSum Goodman.coeff_extremal_of_ne_zero",
@@ -290,7 +299,7 @@
     },
     {
       "place": "Recovering the base estimate from de Branges’s bound",
-      "lines": "v2.50 288–293",
+      "lines": "v2.60 299–304",
       "status": "PROVED",
       "claim": "With e ≡ 1 and h(z) = z, the slit representation and |[wᵏ]F| ≤ k for F in S give |[zⁿ]f| ≤ Aₙ(p) for f in M(p) and n ≥ 1.",
       "declarations": "Goodman.base_reduction_from_schlicht",
@@ -299,7 +308,7 @@
     },
     {
       "place": "Lemma 4 — transfer of one coefficient for every germ",
-      "lines": "v2.50 297–304",
+      "lines": "v2.60 308–315",
       "status": "PROVED",
       "claim": "For a Schwarz function h, a holomorphic disk weight |e| ≤ 1, and each n ≥ 0, there exists a holomorphic disk weight |E| ≤ 1 that satisfies [zⁿ](e · (g∘h)) = [wⁿ](Eg) for every g holomorphic near zero, and E(0) = e(0)h′(0)ⁿ.",
       "declarations": "Goodman.lemma_four",
@@ -308,7 +317,7 @@
     },
     {
       "place": "Only the first n degrees of the germ contribute",
-      "lines": "v2.50 307–310",
+      "lines": "v2.60 318–321",
       "status": "PROVED",
       "claim": "Since h fixes zero, hʲ vanishes to order at least j. Terms of g above degree n contribute zero to [zⁿ](e · (g∘h)).",
       "declarations": "Goodman.transfer_moment Goodman.transfer_coeff_composition",
@@ -317,7 +326,7 @@
     },
     {
       "place": "The coefficient functional on polynomials",
-      "lines": "v2.50 309–312",
+      "lines": "v2.60 320–323",
       "status": "PROVED",
       "claim": "On polynomials, the linear functional Λ(P) = [zⁿ](e · (P∘h)) satisfies |Λ(P)| ≤ ∫ |P| dσ, where σ is normalized arc measure on the unit circle.",
       "declarations": "Goodman.transfer_polynomial_L1 Goodman.transfer_L1_extension",
@@ -326,7 +335,7 @@
     },
     {
       "place": "The weighted coefficient as a finite sum",
-      "lines": "v2.50 307–310",
+      "lines": "v2.60 318–321",
       "status": "PROVED",
       "claim": "For g holomorphic near zero with coefficients gⱼ, [zⁿ](e · (g∘h)) is the sum of gⱼ Λ(wʲ) over j = 0,…,n.",
       "declarations": "Goodman.transfer_coeff_composition",
@@ -335,7 +344,7 @@
     },
     {
       "place": "A harmonic majorant for the polynomial",
-      "lines": "v2.50 312–314",
+      "lines": "v2.60 323–325",
       "status": "PROVED",
       "claim": "The Poisson integral U of the boundary function |P| majorizes |P| on 𝔻, and U∘h is harmonic there.",
       "declarations": "Goodman.polynomial_norm_submean Goodman.transfer_poisson Goodman.poissonMajorant_harmonic_comp",
@@ -344,7 +353,7 @@
     },
     {
       "place": "Cauchy’s estimate on an interior circle",
-      "lines": "v2.50 314–317",
+      "lines": "v2.60 325–328",
       "status": "PROVED",
       "claim": "For 0 < r < 1, rⁿ |Λ(P)| is at most the normalized circle average of |P(h(rζ))|.",
       "declarations": "Goodman.transfer_cauchy",
@@ -353,7 +362,7 @@
     },
     {
       "place": "The mean value of the harmonic majorant",
-      "lines": "v2.50 316–319",
+      "lines": "v2.60 327–330",
       "status": "PROVED",
       "claim": "For 0 < r < 1 the circle average of U(h(rζ)) equals U(0) = ∫ |P| dσ. Thus |Λ(P)| ≤ ∫ |P| dσ in the limit r ↑ 1.",
       "declarations": "Goodman.transfer_mean_le_majorant Goodman.transfer_mean Goodman.poissonMajorant_zero Goodman.transfer_polynomial_L1",
@@ -362,7 +371,7 @@
     },
     {
       "place": "A bounded density representing the functional",
-      "lines": "v2.50 319–321",
+      "lines": "v2.60 330–332",
       "status": "PROVED",
       "claim": "There is a function v on the unit circle with essential supremum at most 1 such that Λ(P) = ∫ vP dσ for every polynomial P.",
       "declarations": "Goodman.transfer_L1_extension",
@@ -371,7 +380,7 @@
     },
     {
       "place": "Vanishing moments above the chosen degree",
-      "lines": "v2.50 321–323",
+      "lines": "v2.60 332–334",
       "status": "PROVED",
       "claim": "For every j > n, the moment Λ(wʲ) vanishes.",
       "declarations": "Goodman.transfer_moment",
@@ -380,7 +389,7 @@
     },
     {
       "place": "Negative Fourier modes of the shifted density",
-      "lines": "v2.50 321–323",
+      "lines": "v2.60 332–334",
       "status": "PROVED",
       "claim": "For each m ≥ 1, the Fourier coefficient of wⁿv(w) at index −m is Λ(wⁿ⁺ᵐ) = 0.",
       "declarations": "Goodman.transfer_boundary_moments Goodman.transfer_moment",
@@ -389,7 +398,7 @@
     },
     {
       "place": "An analytic multiplier from boundary values",
-      "lines": "v2.50 322–324",
+      "lines": "v2.60 333–335",
       "status": "PROVED",
       "claim": "The function wⁿv(w) on the unit circle is the almost-everywhere boundary value of a holomorphic function E on 𝔻 with |E| ≤ 1.",
       "declarations": "Goodman.transfer_hardy_boundary",
@@ -398,7 +407,7 @@
     },
     {
       "place": "Taylor coefficients of the multiplier as moments",
-      "lines": "v2.50 324–326",
+      "lines": "v2.60 335–337",
       "status": "PROVED",
       "claim": "For 0 ≤ j ≤ n, [wⁿ⁻ʲ]E = ∫ v(w)wʲ dσ(w) = Λ(wʲ).",
       "declarations": "Goodman.transfer_boundary_moments",
@@ -407,7 +416,7 @@
     },
     {
       "place": "Reassembling the coefficient of the product",
-      "lines": "v2.50 326–328",
+      "lines": "v2.60 337–339",
       "status": "PROVED",
       "claim": "For every analytic germ g with coefficients gⱼ, the nth coefficient of Eg is the sum of gⱼ Λ(wʲ) over j = 0,…,n.",
       "declarations": "Goodman.transfer_coeff_product Goodman.transfer_coeff_composition Goodman.lemma_four",
@@ -416,7 +425,7 @@
     },
     {
       "place": "The value of the transfer multiplier at zero",
-      "lines": "v2.50 327–328",
+      "lines": "v2.60 338–339",
       "status": "PROVED",
       "claim": "For every n ≥ 0 the representing multiplier satisfies E(0) = Λ(wⁿ) = e(0)h′(0)ⁿ.",
       "declarations": "Goodman.transfer_moment Goodman.lemma_four",
@@ -425,7 +434,7 @@
     },
     {
       "place": "The unweighted transfer in degree zero",
-      "lines": "v2.50 331–333",
+      "lines": "v2.60 342–344",
       "status": "PROVED",
       "claim": "When e ≡ 1 and n = 0, the constant multiplier E ≡ 1 realizes the identity for every analytic germ g.",
       "declarations": "Goodman.szapiel_zero_multiplier Goodman.szapiel_unweighted_transfer",
@@ -434,7 +443,7 @@
     },
     {
       "place": "The unweighted transfer polynomial",
-      "lines": "v2.50 331–333",
+      "lines": "v2.60 342–344",
       "status": "PROVED",
       "claim": "For e ≡ 1 and n ≥ 1, write cⱼ = [zⁿ]hʲ. The polynomial Q(w) = c₁wⁿ⁻¹ + ⋯ + cₙ satisfies [zⁿ](g∘h) = [wⁿ](Qg) for every g holomorphic near zero.",
       "declarations": "Goodman.szapiel_unweighted_transfer Goodman.transfer_coeff_composition",
@@ -443,7 +452,7 @@
     },
     {
       "place": "Positive real part of the Cayley transform",
-      "lines": "v2.50 331–335",
+      "lines": "v2.60 342–346",
       "status": "PROVED",
       "claim": "For |t| = 1 the holomorphic function (1+th)/(1−th) has positive real part on 𝔻 and value 1 at zero.",
       "declarations": "Goodman.unweighted_cayley_properties",
@@ -452,7 +461,7 @@
     },
     {
       "place": "Coefficients of the Cayley transform",
-      "lines": "v2.50 331–335",
+      "lines": "v2.60 342–346",
       "status": "PROVED",
       "claim": "For n ≥ 1 and |t| = 1, the nth coefficient of (1+th)/(1−th) equals twice the sum of cⱼ tʲ over j = 1,…,n, where cⱼ = [zⁿ]hʲ.",
       "declarations": "Goodman.szapiel_coeff_eq",
@@ -461,7 +470,7 @@
     },
     {
       "place": "Carathéodory’s coefficient bound",
-      "lines": "v2.50 334–335",
+      "lines": "v2.60 345–346",
       "status": "PROVED",
       "claim": "For a holomorphic function on 𝔻 with positive real part and value 1 at zero, every positive-degree coefficient has modulus at most 2.",
       "declarations": "Goodman.caratheodory_disk_coefficient",
@@ -470,7 +479,7 @@
     },
     {
       "place": "The unit bound for the transfer polynomial",
-      "lines": "v2.50 335–338",
+      "lines": "v2.60 346–349",
       "status": "PROVED",
       "claim": "The unweighted transfer polynomial Q has |Q(w)| ≤ 1 on the unit circle and throughout the disk.",
       "declarations": "Goodman.szapiel_moment_bound Goodman.reversed_polynomial_boundary Goodman.reversed_polynomial_weight",
@@ -479,7 +488,7 @@
     },
     {
       "place": "Lemma 5 — the conformal slit map",
-      "lines": "v2.50 340–345",
+      "lines": "v2.60 351–356",
       "status": "PROVED",
       "claim": "For 0 < p < 1, let J(z) = z+1/z, B = p+1/p and R = 4/(B+2). A conformal bijection q from 𝔻 ∖ [p,1) onto 𝔻 fixes zero and satisfies J(q(z))+2 = R(J(z)+2) as a spherical identity.",
       "declarations": "Goodman.exists_isSlitMap",
@@ -488,7 +497,7 @@
     },
     {
       "place": "Lemma 5 — strict positivity in each positive degree",
-      "lines": "v2.50 345–346",
+      "lines": "v2.60 356–357",
       "status": "PROVED",
       "claim": "For every n ≥ 1, the Taylor coefficient [zⁿ]q is real and strictly positive.",
       "declarations": "Goodman.slit_coeff_pos",
@@ -497,7 +506,7 @@
     },
     {
       "place": "Lemma 5 — the extremal as a convergent series",
-      "lines": "v2.50 347–350",
+      "lines": "v2.60 358–361",
       "status": "PROVED",
       "claim": "Near zero, R(q(z)+2q(z)²+3q(z)³+⋯) converges to fₚ(z).",
       "declarations": "Goodman.slit_majorant_hasSum",
@@ -506,7 +515,7 @@
     },
     {
       "place": "Figure 2 — the boundary arc traced by the slit",
-      "lines": "v2.50 355–359",
+      "lines": "v2.60 366–370",
       "status": "PROVED",
       "claim": "For p = 1/2, the two banks of the slit have boundary images on conjugate arcs meeting at 1. At the far ends of the arcs the real part tends to 7/9.",
       "declarations": "Goodman.figure2_arc Goodman.slitMap_bank_limit Goodman.slitMap_bank_trace Goodman.slitMap_tip_limit Goodman.slitMap_bank_trace_Ico",
@@ -515,7 +524,7 @@
     },
     {
       "place": "Figure 2 — the role of positive slit coefficients",
-      "lines": "v2.50 358–360",
+      "lines": "v2.60 369–371",
       "status": "PROVED",
       "claim": "The positive-degree coefficients of q are positive, so its powers give nonnegative weights when the coefficient estimates of Lemma 6 are summed in Proposition 7.",
       "declarations": "Goodman.slit_coeff_pos Goodman.slit_pow_coeff_nonneg Goodman.norm_sum_le_first_deficit Goodman.slit_weight_sum",
@@ -524,7 +533,7 @@
     },
     {
       "place": "The Joukowski image of the unit disk",
-      "lines": "v2.50 363–366",
+      "lines": "v2.60 374–377",
       "status": "PROVED",
       "claim": "J(z) = z+1/z maps 𝔻 one-to-one onto the sphere minus [−2,2], sending zero to ∞. On [p,1) it decreases from B = p+1/p toward 2.",
       "declarations": "Goodman.joukowskiSphere_zero Goodman.joukowskiSphere_bijOn_disk Goodman.joukowskiReal_strictAnti Goodman.joukowskiSphere_image_radius Goodman.joukowskiReal_tendsto_one_left",
@@ -533,7 +542,7 @@
     },
     {
       "place": "Straightening the longer omitted interval",
-      "lines": "v2.50 365–368",
+      "lines": "v2.60 376–379",
       "status": "PROVED",
       "claim": "J maps the slit disk onto the sphere minus [−2,B]. The affine map x ↦ R(x+2)−2 fixes −2 and ∞ and sends B to 2, carrying this image onto the sphere minus [−2,2].",
       "declarations": "Goodman.joukowskiSphere_image_slitDisk Goodman.slitJoukowskiAffine_endpoints Goodman.slitJoukowskiAffine_infty Goodman.slitJoukowskiAffine_image_compl",
@@ -542,7 +551,7 @@
     },
     {
       "place": "Construction of the centered slit chart",
-      "lines": "v2.50 367–370",
+      "lines": "v2.60 378–381",
       "status": "PROVED",
       "claim": "Conjugating x ↦ R(x+2)−2 by J gives q(z) = J⁻¹(R(J(z)+2)−2), with J⁻¹ taking values in 𝔻. The resulting conformal map fixes zero.",
       "declarations": "Goodman.slitMap_eqOn_joukowskiSlitMap Goodman.joukowskiSlitMap_isSlitMap Goodman.joukowskiDiskInverse_infty Goodman.joukowskiSlitMap_zero",
@@ -551,7 +560,7 @@
     },
     {
       "place": "The slit-disk conformal radius",
-      "lines": "v2.50 371–373",
+      "lines": "v2.60 382–384",
       "status": "PROVED",
       "claim": "At zero, q′(0) = 1/R. Its inverse χ has χ′(0) = R, the conformal radius of 𝔻 ∖ [p,1) at zero.",
       "declarations": "Goodman.hasDerivAt_slit_zero Goodman.slit_inverse_chart Goodman.radius_slitDisk",
@@ -560,7 +569,7 @@
     },
     {
       "place": "Factoring the equation for the slit map",
-      "lines": "v2.50 375–378",
+      "lines": "v2.60 386–389",
       "status": "PROVED",
       "claim": "The identity z(1+q)² = Rq(1+z)² gives (q−z)(1−zq) = cz(1+q)², where c = 1/R−1 = (1−p)²/(4p) > 0.",
       "declarations": "Goodman.joukowski_add_two Goodman.slitC_eq_inv_radius_sub_one Goodman.slitC_pos Goodman.slit_difference_factor Goodman.slit_factorization",
@@ -569,7 +578,7 @@
     },
     {
       "place": "A power-series recurrence for q",
-      "lines": "v2.50 378–382",
+      "lines": "v2.60 389–393",
       "status": "PROVED",
       "claim": "Near zero, q = z + cz(1+q)²(1+zq+(zq)²+⋯), with c = (1−p)²/(4p).",
       "declarations": "Goodman.slit_geometric_recurrence",
@@ -578,7 +587,7 @@
     },
     {
       "place": "The positive term in the coefficient recurrence",
-      "lines": "v2.50 382–384",
+      "lines": "v2.60 393–395",
       "status": "PROVED",
       "claim": "Writing qₙ = [zⁿ]q, one has q₁ = 1+c. For n ≥ 2, qₙ is a polynomial with nonnegative coefficients in c and the earlier qⱼ, containing the term 2c times the preceding coefficient.",
       "declarations": "Goodman.slit_coeff_one Goodman.slit_coeff_polynomial Goodman.slit_coeff_lower_bound",
@@ -587,7 +596,7 @@
     },
     {
       "place": "Rational form of the slit-map majorant",
-      "lines": "v2.50 386–388",
+      "lines": "v2.60 397–399",
       "status": "PROVED",
       "claim": "Near zero, Rq/(1−q)² = 1/(J(z)−B) = z/(1−Bz+z²) = fₚ(z), with the value at zero supplied by continuity.",
       "declarations": "Goodman.slitMap_joukowski_sub_two_sphere Goodman.joukowski_reciprocal_two_hasSum Goodman.slitMap_rational_majorant",
@@ -596,7 +605,7 @@
     },
     {
       "place": "Lemma 6 — product with a bounded holomorphic factor",
-      "lines": "v2.50 391–394",
+      "lines": "v2.60 402–405",
       "status": "PROVED GIVEN H1",
       "claim": "For F in S and E holomorphic on 𝔻 with |E| ≤ 1, |[wᵏ](FE)| ≤ k for every k ≥ 1.",
       "declarations": "Goodman.lemma_six",
@@ -605,7 +614,7 @@
     },
     {
       "place": "The normalized square root of F(w)/w",
-      "lines": "v2.50 397–399",
+      "lines": "v2.60 408–410",
       "status": "PROVED",
       "claim": "For F in S, the quotient F(w)/w extends holomorphically without zeros to 𝔻. It has a holomorphic square root M with M(0) = 1, so F(w) = wM(w)².",
       "declarations": "Goodman.exists_normalized_square_factor",
@@ -614,7 +623,7 @@
     },
     {
       "place": "The odd univalent function associated with F",
-      "lines": "v2.50 398–402",
+      "lines": "v2.60 409–413",
       "status": "PROVED",
       "claim": "The function F₂(z) = zM(z²) is odd and injective on 𝔻, has F₂′(0) = 1, and satisfies F₂(z)² = F(z²).",
       "declarations": "Goodman.exists_odd_square_factor",
@@ -623,7 +632,7 @@
     },
     {
       "place": "Indexing the odd coefficients",
-      "lines": "v2.50 402–405",
+      "lines": "v2.60 413–416",
       "status": "PROVED",
       "claim": "For each j ≥ 0, the coefficient bⱼ = [wʲ]M equals [z²ʲ⁺¹]F₂. In particular b₀ = 1.",
       "declarations": "Goodman.coeff_odd_square_pullback Goodman.exists_normalized_square_factor",
@@ -632,7 +641,7 @@
     },
     {
       "place": "Truncating the square root at degree k−1",
-      "lines": "v2.50 405–409",
+      "lines": "v2.60 416–420",
       "status": "PROVED",
       "claim": "If Mₖ is the Taylor polynomial of M through degree k−1, then [wᵏ](FE) = [wᵏ⁻¹](M²E) = [wᵏ⁻¹]((Mₖ E)Mₖ).",
       "declarations": "Goodman.product_truncation_identity Goodman.productTaylorPoly_eval",
@@ -641,7 +650,7 @@
     },
     {
       "place": "The Cauchy–Schwarz bound on the product coefficient",
-      "lines": "v2.50 408–411",
+      "lines": "v2.60 419–422",
       "status": "PROVED",
       "claim": "The modulus of [wᵏ⁻¹]((Mₖ E)Mₖ) is at most the product of the Hardy H² norms of Mₖ E and Mₖ.",
       "declarations": "Goodman.coeff_product_finite_cauchy_schwarz Goodman.product_hardy_cauchy_schwarz",
@@ -650,7 +659,7 @@
     },
     {
       "place": "Contraction of the Hardy norm by the weight",
-      "lines": "v2.50 410–411",
+      "lines": "v2.60 421–422",
       "status": "PROVED GIVEN H1",
       "claim": "For |E| ≤ 1, the H² norm of Mₖ E is at most that of Mₖ. The squared norm of Mₖ is the sum of |bⱼ|² over 0 ≤ j < k, which is at most k.",
       "declarations": "Goodman.hardyTwo_weight_contraction Goodman.product_hardy_contraction Goodman.product_truncation_parseval Goodman.product_hardy_robertson_chain",
@@ -659,7 +668,7 @@
     },
     {
       "place": "Proposition 7 — the loss from a nonextremal weight at zero",
-      "lines": "v2.50 420–427",
+      "lines": "v2.60 431–438",
       "status": "PROVED GIVEN H1",
       "claim": "For f in M(p), E holomorphic on 𝔻 with |E| ≤ 1, and n ≥ 1, |[zⁿ](Ef)| ≤ Aₙ(p) − Rqₙ(1−|E(0)|), where qₙ = [zⁿ]q > 0 and R is the slit-disk conformal radius.",
       "declarations": "Goodman.proposition_seven",
@@ -668,7 +677,7 @@
     },
     {
       "place": "Pulling f back to the ordinary univalent class",
-      "lines": "v2.50 430–433",
+      "lines": "v2.60 441–444",
       "status": "PROVED",
       "claim": "The inverse slit map χ avoids the pole p, fixes zero, and has χ′(0) = R. Thus F = (f∘χ)/R belongs to S.",
       "declarations": "Goodman.full_slit_coordinates",
@@ -677,7 +686,7 @@
     },
     {
       "place": "Coefficients of the pulled-back weighted function",
-      "lines": "v2.50 433–435",
+      "lines": "v2.60 444–446",
       "status": "PROVED GIVEN H1",
       "claim": "For Φ = F · (E∘χ), its coefficients dₖ satisfy |dₖ| ≤ k for every k ≥ 1 and d₁ = E(0).",
       "declarations": "Goodman.weighted_slit_pullback",
@@ -686,7 +695,7 @@
     },
     {
       "place": "Finite coefficient expansion on the slit disk",
-      "lines": "v2.50 435–440",
+      "lines": "v2.60 446–451",
       "status": "PROVED GIVEN H1",
       "claim": "On the slit disk Ef = R(Φ∘q). For n ≥ 1, [zⁿ](Ef) equals R times the sum of dₖ [zⁿ]qᵏ over k = 1,…,n.",
       "declarations": "Goodman.weighted_slit_pullback Goodman.coeff_comp_finite",
@@ -695,7 +704,7 @@
     },
     {
       "place": "Separating the linear term of the majorant",
-      "lines": "v2.50 442–445",
+      "lines": "v2.60 453–456",
       "status": "PROVED GIVEN H1",
       "claim": "All coefficients of qᵏ are nonnegative. In the estimate for [zⁿ](Ef), the k = 1 contribution is bounded by R|E(0)|qₙ, and the terms with k ≥ 2 by Rk[zⁿ]qᵏ.",
       "declarations": "Goodman.slit_pow_coeff_nonneg Goodman.weighted_slit_pullback Goodman.norm_sum_le_first_deficit Goodman.lemma_six",
@@ -704,7 +713,7 @@
     },
     {
       "place": "The full majorant and its deficit",
-      "lines": "v2.50 444–447",
+      "lines": "v2.60 455–458",
       "status": "PROVED GIVEN H1",
       "claim": "Summing Rk[zⁿ]qᵏ over k = 1,…,n gives [zⁿ]fₚ = Aₙ(p). Replacing the k = 1 term by R|E(0)|qₙ reduces the sum by Rqₙ(1−|E(0)|).",
       "declarations": "Goodman.norm_sum_le_first_deficit Goodman.slit_weight_sum Goodman.coeff_extremal_of_ne_zero Goodman.weighted_slit_pullback",
@@ -713,7 +722,7 @@
     },
     {
       "place": "Transfer of the meromorphic germ in Theorem 1",
-      "lines": "v2.50 450–453",
+      "lines": "v2.60 461–464",
       "status": "PROVED GIVEN H1",
       "claim": "At each n ≥ 1, Lemma 4 applied to the germ of f at zero gives a holomorphic multiplier |E| ≤ 1 with [zⁿ](e · (f∘h)) = [wⁿ](Ef). Proposition 7 bounds this coefficient by Aₙ(p).",
       "declarations": "Goodman.IsM.finite_germ_zero Goodman.lemma_four Goodman.composite_slit_deficit Goodman.proposition_seven Goodman.lemma_five Goodman.theorem_one_bound",
@@ -722,7 +731,7 @@
     },
     {
       "place": "Why unweighted equality forces a rotation",
-      "lines": "v2.50 455–457",
+      "lines": "v2.60 466–468",
       "status": "PROVED GIVEN H1",
       "claim": "For e ≡ 1, E(0) = h′(0)ⁿ. Equality at any n ≥ 1 forces |h′(0)| = 1 and hence h(z) = λz with |λ| = 1.",
       "declarations": "Goodman.lemma_four Goodman.slitR_pos Goodman.slit_coeff_pos Goodman.equality_forces_unit_derivative Goodman.IsSchwarz.norm_deriv_eq_one_iff_isRotation",
@@ -731,7 +740,7 @@
     },
     {
       "place": "Effect of a rotation on the coefficient",
-      "lines": "v2.50 457–459",
+      "lines": "v2.60 468–470",
       "status": "PROVED",
       "claim": "If h(z) = λz with |λ| = 1 and aₙ = [zⁿ]f, then [zⁿ](f∘h) = λⁿaₙ. Its modulus in degree one equals 1 = A₁(p) for every f in M(p).",
       "declarations": "Goodman.coeff_comp_mul_left Goodman.IsM.coeff_one_comp Goodman.A_first",
@@ -740,7 +749,7 @@
     },
     {
       "place": "Saturation of the second coefficient after pullback",
-      "lines": "v2.50 459–463",
+      "lines": "v2.60 470–474",
       "status": "PROVED GIVEN H1",
       "claim": "If |aₙ| = Aₙ(p) for n ≥ 2, then the normalized slit pullback F satisfies |[w²]F| = 2. The term involving [w²]F in the coefficient sum has strictly positive weight [zⁿ]q².",
       "declarations": "Goodman.full_slit_coordinates Goodman.slit_square_coeff_pos Goodman.slit_second_from_robertson",
@@ -749,7 +758,7 @@
     },
     {
       "place": "Alignment of the first two Koebe coefficients",
-      "lines": "v2.50 463–466",
+      "lines": "v2.60 474–477",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For the rotated Koebe function, dₖ = kηᵏ⁻¹. Equality in the coefficient sum forces d₁ = 1 and d₂ = 2η to have the same argument, hence η = 1.",
       "declarations": "Goodman.coeff_koebe Goodman.coeff_comp_mul_left Goodman.aligned_of_saturated_sum Goodman.slit_second_from_robertson Goodman.koebe_of_second_eq_two",
@@ -758,7 +767,7 @@
     },
     {
       "place": "Recovering the extremal on the whole disk",
-      "lines": "v2.50 465–468",
+      "lines": "v2.60 476–479",
       "status": "PROVED GIVEN H1, H2",
       "claim": "With η = 1 the pullback gives f = Rq/(1−q)² = fₚ on the slit disk and hence as meromorphic maps throughout 𝔻. Conversely, fₚ attains equality with every rotation h(z) = λz, including the identity.",
       "declarations": "Goodman.full_slit_restoration Goodman.IsM.eqOn_of_germ",
@@ -767,7 +776,7 @@
     },
     {
       "place": "Converse for each unit rotation in the proof of Theorem 1",
-      "lines": "v2.50 467–468",
+      "lines": "v2.60 478–479",
       "status": "PROVED GIVEN H1, H2",
       "claim": "For e = 1 and n ≥ 2, the reverse implication of Theorem 1 gives equality for fₚ composed with every rotation h(z) = λz with |λ| = 1.",
       "declarations": "Goodman.theorem_one_higher_equality",
@@ -776,7 +785,7 @@
     },
     {
       "place": "Figure 3 — the omitted segment for p = 1/2",
-      "lines": "v2.50 476–479",
+      "lines": "v2.60 487–490",
       "status": "PROVED",
       "claim": "For p = 1/2, fₚ maps 𝔻 onto the sphere minus the closed real segment [−2,−2/9]. The line containing that segment passes through fₚ(0) = 0.",
       "declarations": "Goodman.extremal_image_disk Goodman.isM_extremal Goodman.figure3_segment",
@@ -785,7 +794,7 @@
     },
     {
       "place": "Riemann mapping and the preimage of infinity",
-      "lines": "v2.50 484–487",
+      "lines": "v2.60 495–498",
       "status": "PROVED GIVEN H4",
       "claim": "The planar Riemann mapping theorem gives a disk chart for every proper simply connected plane domain (Rudin, Theorem 14.8). For the spherical target Π a change of coordinate gives a chart φ centered at w₀, rotatable so that φ⁻¹(∞) lies in (0,1).",
       "declarations": "Goodman.riemannMapping_of_planarRiemannMapping Goodman.CenteredChart.exists_pole_rotation Goodman.CenteredChart.poleParam_mem_Ioo",
@@ -794,7 +803,7 @@
     },
     {
       "place": "Hyperbolic interpretation of the chart pole",
-      "lines": "v2.50 485–488",
+      "lines": "v2.60 496–499",
       "status": "PROVED",
       "claim": "In the rotated chart, δ_𝔻(0,φ⁻¹(∞)) = δ_Π(w₀,∞), so φ⁻¹(∞) = tanh δ_Π(w₀,∞) = p.",
       "declarations": "Goodman.CenteredChart.hypDistanceFrom_eq Goodman.CenteredChart.poleParam_eq Goodman.CenteredChart.exists_pole_rotation",
@@ -803,7 +812,7 @@
     },
     {
       "place": "Normalizing the spherical target chart",
-      "lines": "v2.50 487–489",
+      "lines": "v2.60 498–500",
       "status": "PROVED",
       "claim": "With a = φ′(0), the function f = (φ−w₀)/a belongs to M(p), and |a| is the target conformal radius R(w₀,Π).",
       "declarations": "Goodman.CenteredChart.exists_rotated_isM Goodman.CenteredChart.normalized_germ Goodman.CenteredChart.scale_ne_zero Goodman.CenteredChart.norm_scale",
@@ -812,7 +821,7 @@
     },
     {
       "place": "Factoring G through a Schwarz function",
-      "lines": "v2.50 488–491",
+      "lines": "v2.60 499–502",
       "status": "PROVED",
       "claim": "The map h = φ⁻¹∘G is holomorphic on 𝔻 and fixes zero. At a pole of G the composition is holomorphic in the spherical coordinate at infinity.",
       "declarations": "Goodman.CenteredChart.inverse_comp_isSchwarz Goodman.HolomorphicFromSphereOn.comp_sphereHolomorphicOn",
@@ -821,7 +830,7 @@
     },
     {
       "place": "The derivative as a subordinate coefficient",
-      "lines": "v2.50 491–493",
+      "lines": "v2.60 502–504",
       "status": "PROVED GIVEN H1, H4",
       "claim": "Near zero, G = w₀ + a(f∘h). For n ≥ 1 this gives G⁽ⁿ⁾(0)/n! = a[zⁿ](f∘h) and hence the bound R(w₀,Π) Aₙ(p) for its modulus.",
       "declarations": "Goodman.CenteredChart.factorization_germ Goodman.CenteredChart.coeff_factorization Goodman.theorem_two_bound",
@@ -830,7 +839,7 @@
     },
     {
       "place": "The image forced by geometric equality",
-      "lines": "v2.50 495–497",
+      "lines": "v2.60 506–508",
       "status": "PROVED GIVEN H1, H2, H4",
       "claim": "Equality at an order n ≥ 2 forces G to be a conformal bijection onto Π = w₀ + a fₚ(𝔻), with f = fₚ and h a rotation in its normalized factorization.",
       "declarations": "Goodman.theorem_one_higher_equality Goodman.CenteredChart.restore_normalized Goodman.CenteredChart.forward_bijOn Goodman.CenteredChart.coeff_factorization Goodman.CenteredChart.norm_scale Goodman.CenteredChart.radius_pos Goodman.CenteredChart.inverse_comp_bijOn_iff Goodman.IsRotation.bijOn_disk Goodman.CenteredChart.exists_rotated_isM Goodman.CenteredChart.inverse_comp_isSchwarz Goodman.riemannMapping_of_planarRiemannMapping",
@@ -839,7 +848,7 @@
     },
     {
       "place": "The omitted interval of the rational extremal",
-      "lines": "v2.50 497–499",
+      "lines": "v2.60 508–510",
       "status": "PROVED",
       "claim": "With B = p+1/p > 2, fₚ = 1/(J−B) maps 𝔻 onto the sphere minus the closed interval [−1/(B−2),−1/(B+2)].",
       "declarations": "Goodman.extremal_eq_reciprocal_joukowski Goodman.extremal_joukowski_image",
@@ -848,7 +857,7 @@
     },
     {
       "place": "Position of the basepoint relative to the omitted segment",
-      "lines": "v2.50 498–502",
+      "lines": "v2.60 509–513",
       "status": "PROVED",
       "claim": "For an extremal target, the omitted segment lies on a line through w₀. Since w₀ belongs to the target, both endpoints lie on one ray from w₀, at distinct distances 0 < ℓ₁ < ℓ₂.",
       "declarations": "Goodman.affine_extremal_segmentOnLineThrough Goodman.segment_ordered_endpoints",
@@ -857,7 +866,7 @@
     },
     {
       "place": "The pole parameter from the endpoint distances",
-      "lines": "v2.50 500–505",
+      "lines": "v2.60 511–516",
       "status": "PROVED",
       "claim": "For endpoint distances 0 < ℓ₁ < ℓ₂ from w₀, the model parameter p = (√ℓ₂−√ℓ₁)/(√ℓ₂+√ℓ₁) lies in (0,1).",
       "declarations": "Goodman.segment_parameters",
@@ -866,7 +875,7 @@
     },
     {
       "place": "Scale and direction of the extremal target chart",
-      "lines": "v2.50 502–507",
+      "lines": "v2.60 513–518",
       "status": "PROVED",
       "claim": "The complex scale a has modulus 4ℓ₁ℓ₂/(ℓ₂−ℓ₁) and direction a/|a| = (w₀−ξ)/ℓ₁, where ξ is the nearer endpoint.",
       "declarations": "Goodman.segment_parameters Goodman.segment_converse",
@@ -875,7 +884,7 @@
     },
     {
       "place": "Matching the near and far endpoint distances",
-      "lines": "v2.50 506–509",
+      "lines": "v2.60 517–520",
       "status": "PROVED",
       "claim": "For B = p+1/p, the scale gives |a|/(B+2) = ℓ₁ at the near endpoint and |a|/(B−2) = ℓ₂ at the far endpoint.",
       "declarations": "Goodman.segment_parameters Goodman.segment_converse",
@@ -884,7 +893,7 @@
     },
     {
       "place": "The chart onto the prescribed segment complement",
-      "lines": "v2.50 506–510",
+      "lines": "v2.60 517–521",
       "status": "PROVED",
       "claim": "The affine map u ↦ w₀+au sends the omitted model interval onto the prescribed segment, matching its endpoints in order of distance from w₀. Thus w₀+a fₚ maps 𝔻 conformally onto Π.",
       "declarations": "Goodman.segment_ordered_endpoints Goodman.segment_parameters Goodman.affine_extremal_image_disk Goodman.segment_converse",
@@ -893,7 +902,7 @@
     },
     {
       "place": "Intrinsic parameters of the constructed chart",
-      "lines": "v2.50 509–510",
+      "lines": "v2.60 520–521",
       "status": "PROVED",
       "claim": "The chart w₀+a fₚ sends zero to w₀ and p to ∞. Its parameter p equals tanh δ_Π(w₀,∞), and |a| equals the target conformal radius.",
       "declarations": "Goodman.segment_converse Goodman.affine_extremal_invariants Goodman.segment_intrinsic_parameters Goodman.IsM.hasDerivAt_zero Goodman.isM_extremal",
@@ -902,7 +911,7 @@
     },
     {
       "place": "All centered charts of the extremal target",
-      "lines": "v2.50 511–512",
+      "lines": "v2.60 522–523",
       "status": "PROVED",
       "claim": "For the prescribed segment complement, every conformal bijection from 𝔻 onto Π taking zero to w₀ is a disk rotation followed by the chart z ↦ w₀+a fₚ(z) and attains equality at every n ≥ 1.",
       "declarations": "Goodman.segment_converse Goodman.CenteredChart.exists_rotate_eqOn_of_bijOn Goodman.geometric_equality_of_segment",
@@ -911,7 +920,7 @@
     },
     {
       "place": "Weighted Rogosinski bound for planar targets",
-      "lines": "v2.50 517–521",
+      "lines": "v2.60 528–532",
       "status": "PROVED GIVEN H1",
       "claim": "For F in S, a Schwarz function h, and holomorphic |E| ≤ 1 on 𝔻, |[zᵏ](E · (F∘h))| ≤ k for every k ≥ 1. This gives the planar endpoint p = 1.",
       "declarations": "Goodman.rogosinski_weighted",
@@ -920,7 +929,7 @@
     },
     {
       "place": "Lemma 8 — weighted coefficients in a centered source chart",
-      "lines": "v2.50 523–528",
+      "lines": "v2.60 534–539",
       "status": "PROVED GIVEN H1, H4",
       "claim": "For meromorphic G from a proper simply connected plane domain Ω into a simply connected spherical target omitting at least two points, let G(z₀) = w₀ be finite. If φ maps 𝔻 conformally onto Ω with φ(0) = z₀ and φ′(0) = Rₛ, then H = (G∘φ−w₀)/Rₜ satisfies |[zᵏ](EH)| ≤ Aₖ(p) for k ≥ 1 and every holomorphic disk weight |E| ≤ 1. The bound includes planar targets at p = 1.",
       "declarations": "Goodman.lemma_eight",
@@ -929,7 +938,7 @@
     },
     {
       "place": "Target charts in the planar and meromorphic cases",
-      "lines": "v2.50 531–533",
+      "lines": "v2.60 542–544",
       "status": "PROVED GIVEN H4",
       "claim": "A centered target chart has the form ψ = w₀+af with |a| = Rₜ. When ∞ belongs to Π the chart can be rotated to put its pole at p, giving f in M(p). For planar Π the normalized f belongs to S.",
       "declarations": "Goodman.riemannMapping_of_planarRiemannMapping Goodman.CenteredChart.norm_scale Goodman.CenteredChart.exists_rotated_isM Goodman.CenteredChart.normalized_isS Goodman.CenteredChart.restore_normalized",
@@ -938,7 +947,7 @@
     },
     {
       "place": "The Schwarz factor between centered charts",
-      "lines": "v2.50 533–535",
+      "lines": "v2.60 544–546",
       "status": "PROVED",
       "claim": "For centered source and target charts φ and ψ, h = ψ⁻¹∘G∘φ is a Schwarz function, and H = (a/Rₜ)(f∘h), with |a/Rₜ| = 1.",
       "declarations": "Goodman.CenteredChart.inverse_comp_isSchwarz_of_param Goodman.CenteredChart.factorization_germ Goodman.SphereHolomorphicOn.comp_analyticOnNhd Goodman.CenteredChart.norm_scale Goodman.CenteredChart.radius_pos Goodman.CenteredChart.norm_coeff_weighted_factor",
@@ -947,7 +956,7 @@
     },
     {
       "place": "The two bounds for the centered coefficient",
-      "lines": "v2.50 535–536",
+      "lines": "v2.60 546–547",
       "status": "PROVED GIVEN H1, H4",
       "claim": "For 0 < p < 1 the centered coefficient estimate follows from Theorem 1. At p = 1 the transfer and product estimates of Lemmas 4 and 6 give the bound k for degree k.",
       "declarations": "Goodman.centered_disk_bound Goodman.rogosinski_weighted Goodman.lemma_eight",
@@ -956,7 +965,7 @@
     },
     {
       "place": "The disk automorphism centered at z₀",
-      "lines": "v2.50 539–541",
+      "lines": "v2.60 550–552",
       "status": "PROVED",
       "claim": "The chart φ(z) = (z₀+z)/(1+conj(z₀)z) has Rₛ = 1−|z₀|² and φ⁻¹(z₀+Rₛ x) = x/(1−conj(z₀)x) near zero. Here conj(z₀) denotes the complex conjugate of z₀.",
       "declarations": "Goodman.diskForward_bihol Goodman.diskForward_zero Goodman.radius_planeDomain_disk Goodman.diskInverse_affine Goodman.diskInverse_bihol",
@@ -965,7 +974,7 @@
     },
     {
       "place": "The local change of center in the disk",
-      "lines": "v2.50 541–543",
+      "lines": "v2.60 552–554",
       "status": "PROVED",
       "claim": "Near x = 0 the map G satisfies G(z₀+Rₛ x) = w₀ + Rₜ H(x/(1−conj(z₀)x)).",
       "declarations": "Goodman.disk_centered_germ",
@@ -974,7 +983,7 @@
     },
     {
       "place": "Coefficients of the inverse disk chart",
-      "lines": "v2.50 542–545",
+      "lines": "v2.60 553–556",
       "status": "PROVED",
       "claim": "For 1 ≤ k ≤ n, the coefficient of xⁿ in (x/(1−conj(z₀)x))ᵏ is binom(n−1,k−1) conj(z₀)ⁿ⁻ᵏ.",
       "declarations": "Goodman.coeff_diskKernel_pow",
@@ -983,7 +992,7 @@
     },
     {
       "place": "The disk derivative as a complex binomial sum",
-      "lines": "v2.50 544–546",
+      "lines": "v2.60 555–557",
       "status": "PROVED",
       "claim": "The normalized derivative Rₛⁿ G⁽ⁿ⁾(z₀)/(n! Rₜ) equals the sum, for k = 1,…,n, of binom(n−1,k−1) conj(z₀)ⁿ⁻ᵏ [zᵏ]H.",
       "declarations": "Goodman.disk_derivative_sum",
@@ -992,7 +1001,7 @@
     },
     {
       "place": "The disk bound after the change of center",
-      "lines": "v2.50 547",
+      "lines": "v2.60 558",
       "status": "PROVED GIVEN H1, H4",
       "claim": "Lemma 8 with E ≡ 1 bounds the modulus of the normalized nth derivative by Dₙ(p,|z₀|).",
       "declarations": "Goodman.disk_derivative_of_first_coeffs Goodman.theorem_three_disk",
@@ -1001,7 +1010,7 @@
     },
     {
       "place": "An extremal at a real disk center",
-      "lines": "v2.50 548–550",
+      "lines": "v2.60 559–561",
       "status": "PROVED",
       "claim": "For z₀ = r in [0,1), the target fₚ(𝔻) and map G = fₚ∘φ⁻¹ give Rₜ = 1 and H = fₚ. All terms in the derivative sum are nonnegative, giving equality in every order n ≥ 2, also for p = 1.",
       "declarations": "Goodman.diskSharpModel Goodman.diskPhase_real Goodman.extremal_model_data Goodman.coeff_disk_model Goodman.coeff_comp_diskKernel Goodman.coeff_extremal_of_ne_zero Goodman.A_positive Goodman.disk_model_derivativeRatio",
@@ -1010,7 +1019,7 @@
     },
     {
       "place": "Sharpness at every complex disk center",
-      "lines": "v2.50 548–550",
+      "lines": "v2.60 559–561",
       "status": "PROVED",
       "claim": "For each fixed 0 < p ≤ 1, rotating the extremal from r to any z₀ with |z₀| = r gives a map attaining equality at that center for every n ≥ 2.",
       "declarations": "Goodman.diskSharpModel Goodman.star_eq_diskPhase_mul_norm Goodman.norm_diskPhase Goodman.coeff_extremal_scaled Goodman.coeff_comp_diskKernel Goodman.coeff_disk_model",
@@ -1019,7 +1028,7 @@
     },
     {
       "place": "Normalizing a convex source chart",
-      "lines": "v2.50 553–555",
+      "lines": "v2.60 564–566",
       "status": "PROVED",
       "claim": "For a centered chart φ onto the convex source, s = (φ−z₀)/Rₛ is injective with convex image, s(0) = 0 and s′(0) = 1. It has a holomorphic inverse near zero.",
       "declarations": "Goodman.convex_source_normalize",
@@ -1028,7 +1037,7 @@
     },
     {
       "place": "The inverse-chart germ on a convex source",
-      "lines": "v2.50 554–559",
+      "lines": "v2.60 565–570",
       "status": "PROVED",
       "claim": "Near x = 0, G(z₀+Rₛ x) = w₀ + Rₜ H(s⁻¹(x)), so [xⁿ](H∘s⁻¹) equals Rₛⁿ G⁽ⁿ⁾(z₀)/(n! Rₜ) for n ≥ 1.",
       "declarations": "Goodman.convex_centered_germ",
@@ -1037,7 +1046,7 @@
     },
     {
       "place": "Lagrange inversion for the normalized derivative",
-      "lines": "v2.50 556–560",
+      "lines": "v2.60 567–571",
       "status": "PROVED",
       "claim": "For n ≥ 1, [xⁿ](H∘s⁻¹) = (1/n)[zⁿ⁻¹](H′(z)(z/s(z))ⁿ), with the quotient extended at zero.",
       "declarations": "Goodman.lagrange_inversion_coeff",
@@ -1046,7 +1055,7 @@
     },
     {
       "place": "A bounded factor in the reciprocal convex quotient",
-      "lines": "v2.50 561–562",
+      "lines": "v2.60 572–573",
       "status": "PROVED GIVEN H3",
       "claim": "The reciprocal z/s(z) lies in |w−1| < 1 and extends with value 1 at zero. It has the form 1+zv(z), where v is holomorphic on 𝔻 with |v| ≤ 1.",
       "declarations": "Goodman.strict_inversion_disk Goodman.convex_reciprocal_weight",
@@ -1055,7 +1064,7 @@
     },
     {
       "place": "Binomial expansion of the reciprocal power",
-      "lines": "v2.50 562–564",
+      "lines": "v2.60 573–575",
       "status": "PROVED",
       "claim": "The nth power (z/s(z))ⁿ is the sum of binom(n,j) zʲ v(z)ʲ over j = 0,…,n.",
       "declarations": "Goodman.convex_binomial_expansion Goodman.convex_binomial_coeff",
@@ -1064,7 +1073,7 @@
     },
     {
       "place": "Degrees contributing after Lagrange inversion",
-      "lines": "v2.50 563–565",
+      "lines": "v2.60 574–576",
       "status": "PROVED",
       "claim": "The j = n term contributes zero to degree n−1. For j < n and k = n−j, [zⁿ⁻¹](H′ zʲ vʲ) = [zᵏ⁻¹](H′vʲ).",
       "declarations": "Goodman.convex_top_coeff",
@@ -1073,7 +1082,7 @@
     },
     {
       "place": "Fourier coefficients of the Fejér kernel",
-      "lines": "v2.50 569–571",
+      "lines": "v2.60 580–582",
       "status": "PROVED",
       "claim": "For ζ on the unit circle and k ≥ 1, Kₖ(ζ) is the sum of (1−|j|/k) ζʲ over all integers j with |j| < k.",
       "declarations": "Goodman.fejerKernel_eq_laurent",
@@ -1082,7 +1091,7 @@
     },
     {
       "place": "Positivity of the Fejér kernel",
-      "lines": "v2.50 569–571",
+      "lines": "v2.60 580–582",
       "status": "PROVED",
       "claim": "For k ≥ 1 the Fejér kernel Kₖ is real and nonnegative at every point of the unit circle.",
       "declarations": "Goodman.fejerKernel_nonneg",
@@ -1091,7 +1100,7 @@
     },
     {
       "place": "Unit mass of the Fejér kernel",
-      "lines": "v2.50 570–571",
+      "lines": "v2.60 581–582",
       "status": "PROVED",
       "claim": "The integral of Kₖ against normalized arc measure on the unit circle equals 1 for every k ≥ 1.",
       "declarations": "Goodman.fejerKernel_mass",
@@ -1100,7 +1109,7 @@
     },
     {
       "place": "Integral representation of the Fejér mean",
-      "lines": "v2.50 567–571",
+      "lines": "v2.60 578–582",
       "status": "PROVED",
       "claim": "For z in 𝔻, Ẽ(z) is the integral of E(z conj(ζ)) Kₖ(ζ) over the unit circle with normalized arc measure dσ(ζ).",
       "declarations": "Goodman.fejerMean_eq_circleAverage_conj",
@@ -1109,7 +1118,7 @@
     },
     {
       "place": "The Fejér mean is an admissible weight",
-      "lines": "v2.50 570–573",
+      "lines": "v2.60 581–584",
       "status": "PROVED",
       "claim": "If E is holomorphic on 𝔻 with |E| ≤ 1, its polynomial Fejér mean also satisfies |Ẽ| ≤ 1 throughout 𝔻.",
       "declarations": "Goodman.fejerMean_isWeight Goodman.fejerKernel_nonneg Goodman.fejerKernel_mass",
@@ -1118,7 +1127,7 @@
     },
     {
       "place": "The constant term of the centered map",
-      "lines": "v2.50 573–574",
+      "lines": "v2.60 584–585",
       "status": "PROVED",
       "claim": "The constant Taylor coefficient η₀ of the centered map H is H(0) = 0.",
       "declarations": "Goodman.centered_coeff_zero",
@@ -1127,7 +1136,7 @@
     },
     {
       "place": "Coefficient convolution with the derivative of H",
-      "lines": "v2.50 573–576",
+      "lines": "v2.60 584–587",
       "status": "PROVED",
       "claim": "For k ≥ 1, [zᵏ⁻¹](H′E) equals the sum of m ηₘ εₖ₋ₘ over m = 1,…,k, where ηₘ = [zᵐ]H and εⱼ = [zʲ]E.",
       "declarations": "Goodman.coeff_mul Goodman.coeff_deriv_succ",
@@ -1136,7 +1145,7 @@
     },
     {
       "place": "The Fejér multiplier identity",
-      "lines": "v2.50 573–576",
+      "lines": "v2.60 584–587",
       "status": "PROVED",
       "claim": "For k ≥ 1, k[zᵏ](H Ẽ) equals [zᵏ⁻¹](H′E). The Fejér factor on εₖ₋ₘ is m/k, giving the same summands m ηₘ εₖ₋ₘ for 1 ≤ m ≤ k.",
       "declarations": "Goodman.fejer_derivative_identity Goodman.coeff_mul Goodman.coeff_deriv_succ Goodman.coeff_fejerMean",
@@ -1145,7 +1154,7 @@
     },
     {
       "place": "The weighted derivative coefficient of H",
-      "lines": "v2.50 574–577",
+      "lines": "v2.60 585–588",
       "status": "PROVED GIVEN H1, H4",
       "claim": "For the centered map H, k ≥ 1, and any holomorphic disk weight |E| ≤ 1, |[zᵏ⁻¹](H′E)| ≤ k Aₖ(p), including p = 1.",
       "declarations": "Goodman.fejer_derivative_bound Goodman.lemma_eight",
@@ -1154,7 +1163,7 @@
     },
     {
       "place": "Powers of the convex-map factor as weights",
-      "lines": "v2.50 576–577",
+      "lines": "v2.60 587–588",
       "status": "PROVED",
       "claim": "For 0 ≤ j < n, vʲ is an admissible weight in the derivative estimate of degree k−1 with k = n−j, including the constant weight 1 at j = 0.",
       "declarations": "Goodman.IsWeight.pow",
@@ -1163,7 +1172,7 @@
     },
     {
       "place": "The binomial factor in the convex-source bound",
-      "lines": "v2.50 576–578",
+      "lines": "v2.60 587–589",
       "status": "PROVED",
       "claim": "For k = n−j with 0 ≤ j < n, (k/n) binom(n,j) = binom(n−1,k−1). The sum of the resulting bounds is Dₙ(p,1).",
       "declarations": "Goodman.convex_binomial_factor Goodman.convex_binomial_sum",
@@ -1172,7 +1181,7 @@
     },
     {
       "place": "The extremal half-plane source",
-      "lines": "v2.50 580–582",
+      "lines": "v2.60 591–593",
       "status": "PROVED",
       "claim": "The chart φ(z) = z/(1+z) maps 𝔻 onto Re x < 1/2 and has inverse x/(1−x). At z₀ = 0 the model G = fₚ∘φ⁻¹ maps onto fₚ(𝔻) with Rₛ = Rₜ = 1.",
       "declarations": "Goodman.halfPlane_bihol Goodman.halfPlane_inverse_analytic Goodman.halfPlane_inverse_maps Goodman.radius_halfPlane_zero Goodman.extremal_model_data Goodman.convexSharpModel",
@@ -1181,7 +1190,7 @@
     },
     {
       "place": "Simultaneous attainment on the half-plane",
-      "lines": "v2.50 581–583",
+      "lines": "v2.60 592–594",
       "status": "PROVED",
       "claim": "For each 0 < p ≤ 1, the nth coefficient of x ↦ fₚ(x/(1−x)) is the sum of binom(n−1,k−1) Aₖ(p) over k = 1,…,n. This equals Dₙ(p,1), so the same map attains the convex bound in every order n ≥ 2.",
       "declarations": "Goodman.coeff_halfPlane_model Goodman.A_at_one",
@@ -1190,7 +1199,7 @@
     },
     {
       "place": "Discussion — full coefficient bound and unweighted equality",
-      "lines": "v2.50 594–597",
+      "lines": "v2.60 605–608",
       "status": "PROVED GIVEN H1, H2",
       "claim": "Theorem 1 gives the weighted bound. For weight one and n ≥ 2 equality requires the extremal fₚ and a rotation, and each rotation gives equality.",
       "declarations": "Goodman.theorem_one_bound Goodman.theorem_one_higher_equality",
@@ -1199,7 +1208,7 @@
     },
     {
       "place": "Discussion — two derivative results",
-      "lines": "v2.50 597",
+      "lines": "v2.60 608",
       "status": "PROVED GIVEN H1, H3, H4",
       "claim": "Theorem 3 gives both sharp derivative bounds from the stated disk and convex sources.",
       "declarations": "Goodman.theorem_three_disk Goodman.theorem_three_convex",
