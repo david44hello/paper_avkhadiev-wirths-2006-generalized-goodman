@@ -1,6 +1,10 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Paper.Corollaries
-import Goodman.Paper.Centered
+module
+
+public import Goodman.Paper.Corollaries
+public import Goodman.Paper.Centered
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric

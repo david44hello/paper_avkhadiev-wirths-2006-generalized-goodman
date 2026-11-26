@@ -1,11 +1,13 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.BoundaryTransfer
-import Goodman.DerivativeDetails
-import Goodman.FejerDetails
-import Goodman.HardyBoundary
-import Goodman.JoukowskiDetails
-import Goodman.Paper.Additional
-import Goodman.Paper.Geometry
-import Goodman.PoissonMajorant
-import Goodman.ProductDetails
-import Goodman.SlitDetails
+module
+
+public import Goodman.BoundaryTransfer
+public import Goodman.DerivativeDetails
+public import Goodman.FejerDetails
+public import Goodman.HardyBoundary
+public import Goodman.JoukowskiDetails
+public import Goodman.Paper.Additional
+public import Goodman.Paper.Geometry
+public import Goodman.PoissonMajorant
+public import Goodman.ProductDetails
+public import Goodman.SlitDetails

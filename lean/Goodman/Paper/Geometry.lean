@@ -1,9 +1,13 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Paper.Centered
-import Goodman.GeometricTheorem
-import Goodman.ConvexDerivative
-import Goodman.DiskModels
-import Goodman.HalfPlaneModel
+module
+
+public import Goodman.Paper.Centered
+public import Goodman.GeometricTheorem
+public import Goodman.ConvexDerivative
+public import Goodman.DiskModels
+public import Goodman.HalfPlaneModel
+
+@[expose] public section
 
 noncomputable section
 open Set

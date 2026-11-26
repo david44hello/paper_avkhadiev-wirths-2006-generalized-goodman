@@ -1,11 +1,15 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Fejer
-import Goodman.Lagrange
-import Goodman.DiskDerivative
-import Goodman.Centered
-import Goodman.Deficit
-import Goodman.Slit
-import Goodman.Product
+module
+
+public import Goodman.Fejer
+public import Goodman.Lagrange
+public import Goodman.DiskDerivative
+public import Goodman.Centered
+public import Goodman.Deficit
+public import Goodman.Slit
+public import Goodman.Product
+
+@[expose] public section
 
 noncomputable section
 open Set Metric Filter

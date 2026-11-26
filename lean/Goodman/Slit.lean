@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.SlitGeometry
-import Goodman.SlitPositivity
-import Goodman.SlitMajorant
+module
+
+public import Goodman.SlitGeometry
+public import Goodman.SlitPositivity
+public import Goodman.SlitMajorant
+
+@[expose] public section
 
 namespace Goodman
 

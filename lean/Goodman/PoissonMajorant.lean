@@ -1,6 +1,10 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Transfer
-import Goodman.SchwarzCases
+module
+
+public import Goodman.Transfer
+public import Goodman.SchwarzCases
+
+@[expose] public section
 
 /-!
 # The Poisson majorant in Lemma 4

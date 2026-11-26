@@ -1,6 +1,10 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Fejer
-import Goodman.Geometry
+module
+
+public import Goodman.Fejer
+public import Goodman.Geometry
+
+@[expose] public section
 
 noncomputable section
 open Complex Metric

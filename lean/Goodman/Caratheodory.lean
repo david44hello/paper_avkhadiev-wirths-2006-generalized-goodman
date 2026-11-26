@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Defs
-import Goodman.CaratheodoryBound
-import Goodman.CaratheodoryCoefficient
+module
+
+public import Goodman.Defs
+public import Goodman.CaratheodoryBound
+public import Goodman.CaratheodoryCoefficient
+
+@[expose] public section
 
 open Metric Filter
 open scoped Topology

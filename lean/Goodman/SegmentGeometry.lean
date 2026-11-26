@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.MobiusSphere
-import Goodman.Extremal
-import Goodman.TargetNormalize
+module
+
+public import Goodman.MobiusSphere
+public import Goodman.Extremal
+public import Goodman.TargetNormalize
+
+@[expose] public section
 
 noncomputable section
 open Set Metric Filter
@@ -209,7 +213,7 @@ theorem restoreValue_bijective (w : ℂ) {a : ℂ} (ha : a ≠ 0) :
     Function.Bijective (restoreValue w a) :=
   (((Equiv.mulLeft₀ a ha).trans (Equiv.addLeft w)).optionCongr).bijective
 
-private lemma restore_as_normalize (w : ℂ) {a : ℂ} (ha : a ≠ 0) :
+lemma restore_as_normalize (w : ℂ) {a : ℂ} (ha : a ≠ 0) :
     restoreValue w a = normalizeValue (-w/a) a⁻¹ := by
   funext v
   induction v using OnePoint.rec with
@@ -270,7 +274,7 @@ theorem affine_extremal_segmentOnLineThrough (w : ℂ) {a : ℂ} (ha : a ≠ 0) 
   simp only [neg_div, neg_lt_neg_iff]
   exact one_div_lt_one_div_of_lt (sub_pos.mpr (two_lt_extremal_parameter hp hp1)) (by linarith)
 
-private lemma affine_extremal_regular_coord (w : ℂ) {a : ℂ} (ha : a ≠ 0)
+lemma affine_extremal_regular_coord (w : ℂ) {a : ℂ} (ha : a ≠ 0)
     {p : ℝ} (hp : 0 < p) {x : ℂ} (hx : x ∈ disk)
     (hfin : restoreValue w a (extremal p x) ≠ OnePoint.infty) :
     ∃ g : ℂ → ℂ, AnalyticAt ℂ g x ∧ deriv g x ≠ 0 ∧

@@ -1,12 +1,16 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Geometry
+module
+
+public import Goodman.Geometry
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Topology
 
 namespace Goodman
 
-private def sphereInv (x : Sphere) : Sphere := x.elim (0 : ℂ) fromRecip
+def sphereInv (x : Sphere) : Sphere := x.elim (0 : ℂ) fromRecip
 
 private theorem continuous_fromRecip : Continuous fromRecip := by
   apply continuous_iff_continuousAt.mpr
@@ -25,7 +29,7 @@ private theorem continuous_fromRecip : Continuous fromRecip := by
     filter_upwards [eventually_ne_nhds hz] with t ht
     simp [Function.comp_apply, fromRecip, ht]
 
-private theorem continuous_sphereInv : Continuous sphereInv := by
+theorem continuous_sphereInv : Continuous sphereInv := by
   apply (OnePoint.continuous_iff _).2
   refine ⟨?_, continuous_fromRecip⟩
   have h : Tendsto (fun z : ℂ => z⁻¹) (coclosedCompact ℂ) (𝓝 0) := by
@@ -35,14 +39,14 @@ private theorem continuous_sphereInv : Continuous sphereInv := by
   filter_upwards [(isCompact_singleton (x := (0 : ℂ))).compl_mem_coclosedCompact_of_isClosed isClosed_singleton] with z hz
   simp [Function.comp_apply, sphereInv, fromRecip, show z ≠ 0 from hz]
 
-private theorem sphereInv_involutive : Function.Involutive sphereInv := by
+theorem sphereInv_involutive : Function.Involutive sphereInv := by
   intro x
   induction x using OnePoint.rec with
   | infty => simp [sphereInv, fromRecip]
   | coe z =>
     by_cases hz : z = 0 <;> simp [sphereInv, fromRecip, hz]
 
-private def reciprocalHomeomorph : Sphere ≃ₜ Sphere where
+def reciprocalHomeomorph : Sphere ≃ₜ Sphere where
   toFun := sphereInv
   invFun := sphereInv
   left_inv := sphereInv_involutive

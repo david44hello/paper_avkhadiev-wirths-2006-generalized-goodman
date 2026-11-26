@@ -1,12 +1,16 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Alignment
-import Goodman.Constants
-import Goodman.Extremal
-import Goodman.SchwarzCases
-import Goodman.SlitTransport
-import Goodman.SlitPositivity
-import Goodman.SlitWeights
-import Goodman.Continuation
+module
+
+public import Goodman.Alignment
+public import Goodman.Constants
+public import Goodman.Extremal
+public import Goodman.SchwarzCases
+public import Goodman.SlitTransport
+public import Goodman.SlitPositivity
+public import Goodman.SlitWeights
+public import Goodman.Continuation
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

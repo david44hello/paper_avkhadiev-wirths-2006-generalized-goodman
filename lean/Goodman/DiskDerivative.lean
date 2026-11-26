@@ -1,8 +1,12 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.UniformizationProof
-import Goodman.ChartInvariance
-import Goodman.CoefficientComposition
-import Goodman.Extremal
+module
+
+public import Goodman.UniformizationProof
+public import Goodman.ChartInvariance
+public import Goodman.CoefficientComposition
+public import Goodman.Extremal
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric

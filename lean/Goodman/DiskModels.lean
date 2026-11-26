@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.DiskDerivative
-import Goodman.SegmentGeometry
-import Goodman.Constants
+module
+
+public import Goodman.DiskDerivative
+public import Goodman.SegmentGeometry
+public import Goodman.Constants
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric Topology

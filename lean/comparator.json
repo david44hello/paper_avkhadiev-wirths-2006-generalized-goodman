@@ -1,0 +1,21 @@
+{
+  "challenge_module": "RegistryChallenge",
+  "solution_module": "RegistrySolution",
+  "theorem_names": [
+    "Goodman.unweighted_goodman",
+    "Goodman.theorem_one_bound",
+    "Goodman.theorem_one_higher_equality",
+    "Goodman.theorem_one_first_equality",
+    "Goodman.theorem_three_disk",
+    "Goodman.theorem_three_convex",
+    "Goodman.theorem_three_disk_extremal",
+    "Goodman.theorem_three_convex_extremal"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

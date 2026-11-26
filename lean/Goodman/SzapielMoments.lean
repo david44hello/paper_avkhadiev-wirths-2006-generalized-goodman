@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Caratheodory
-import Goodman.CoefficientComposition
-import Goodman.Extremal
+module
+
+public import Goodman.Caratheodory
+public import Goodman.CoefficientComposition
+public import Goodman.Extremal
+
+@[expose] public section
 
 open Filter Metric
 open scoped Topology
@@ -23,7 +27,7 @@ theorem szapiel_re_pos {h : ℂ → ℂ} (hh : IsSchwarz h) {t : ℂ} (ht : ‖t
   let w := t * h z
   have hw : ‖w‖ < 1 := szapiel_norm_lt_one hh ht hz
   have hP := congrFun (poissonKernel_eq_re_herglotzRieszKernel (c := 0) (w := w)) 1
-  simp only [poissonKernel, Function.comp_apply, herglotzRieszKernel, sub_zero,
+  simp only [poissonKernel_def, Function.comp_apply, herglotzRieszKernel_def, sub_zero,
     norm_one, one_pow] at hP
   rw [← hP]
   exact div_pos (sub_pos.mpr ((sq_lt_one_iff₀ (norm_nonneg w)).mpr hw))

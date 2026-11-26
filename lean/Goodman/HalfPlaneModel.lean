@@ -1,5 +1,9 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.DiskModels
+module
+
+public import Goodman.DiskModels
+
+@[expose] public section
 
 noncomputable section
 open Set Metric

@@ -1,6 +1,10 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Geometry
-import Goodman.SchwarzCases
+module
+
+public import Goodman.Geometry
+public import Goodman.SchwarzCases
+
+@[expose] public section
 
 noncomputable section
 

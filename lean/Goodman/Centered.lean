@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.TargetNormalize
-import Goodman.CoefficientComposition
-import Goodman.Constants
+module
+
+public import Goodman.TargetNormalize
+public import Goodman.CoefficientComposition
+public import Goodman.Constants
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric

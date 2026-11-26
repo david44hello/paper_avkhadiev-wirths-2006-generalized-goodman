@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Paper.Coefficients
-import Goodman.Centered
-import Goodman.UniformizationProof
+module
+
+public import Goodman.Paper.Coefficients
+public import Goodman.Centered
+public import Goodman.UniformizationProof
+
+@[expose] public section
 
 noncomputable section
 open Set

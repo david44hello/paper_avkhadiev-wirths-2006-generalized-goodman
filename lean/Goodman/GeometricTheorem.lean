@@ -1,9 +1,13 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.GeometricEquality
-import Goodman.UniformizationProof
-import Goodman.SegmentGeometry
-import Goodman.CoefficientComposition
-import Goodman.Constants
+module
+
+public import Goodman.GeometricEquality
+public import Goodman.UniformizationProof
+public import Goodman.SegmentGeometry
+public import Goodman.CoefficientComposition
+public import Goodman.Constants
+
+@[expose] public section
 
 noncomputable section
 open Set Filter Metric

@@ -1,12 +1,16 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.MobiusSphere
-import Challenge.JoukowskiAffine
-import Challenge.SegmentScale
-import Challenge.SlitArcCoordinate
-import Challenge.SlitScale
-import Goodman.SharpModels
-import Goodman.PlanarUniformization
-import Goodman.CoefficientClaims
+module
+
+public import Goodman.MobiusSphere
+public import Challenge.JoukowskiAffine
+public import Challenge.SegmentScale
+public import Challenge.SlitArcCoordinate
+public import Challenge.SlitScale
+public import Goodman.SharpModels
+public import Goodman.PlanarUniformization
+public import Goodman.CoefficientClaims
+
+@[expose] public section
 
 section
 

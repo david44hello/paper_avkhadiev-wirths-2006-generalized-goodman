@@ -1,7 +1,11 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.SchwarzCases
-import Goodman.Transfer
-import Goodman.UniformizationProof
+module
+
+public import Goodman.SchwarzCases
+public import Goodman.Transfer
+public import Goodman.UniformizationProof
+
+@[expose] public section
 
 /-!
 # Boundary moments for the weighted transfer lemma

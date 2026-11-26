@@ -1,8 +1,12 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.CoefficientComposition
-import Goodman.ReversedPolynomial
-import Goodman.SzapielMoments
-import Goodman.Transfer
+module
+
+public import Goodman.CoefficientComposition
+public import Goodman.ReversedPolynomial
+public import Goodman.SzapielMoments
+public import Goodman.Transfer
+
+@[expose] public section
 
 noncomputable section
 open Set Filter

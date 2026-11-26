@@ -1,8 +1,12 @@
 -- Copyright (C) Dave Goel 2026--now. Licensed under the Apache License 2.0; see LICENSE.
-import Goodman.Slit
-import Goodman.SlitTransport
-import Goodman.SlitWeights
-import Goodman.DiskDerivative
+module
+
+public import Goodman.Slit
+public import Goodman.SlitTransport
+public import Goodman.SlitWeights
+public import Goodman.DiskDerivative
+
+@[expose] public section
 
 noncomputable section
 open Set Filter
