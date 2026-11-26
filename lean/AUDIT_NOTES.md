@@ -1,8 +1,8 @@
 # Assumptions and coefficient conventions
 
-The maps cite the focused v2.60 TeX (MD5 `be823b269c0092f6aa6d38d881e73cb2`) and PDF (MD5 `12797eee0af6b77390814ed27cb6b206`). The [claim map](CLAIM_MAP.tsv) links mathematical claims to Lean declarations. The [passage inventory](PROOF_STEPS.tsv) also covers definitions, historical attributions and bibliographical material.
+The maps cite the focused v2.70 TeX (MD5 `17b73538f52c9716aa679f0e624af6ed`) and PDF (MD5 `aa74ce744a4e266a883a894785f1ab8d`). The [claim map](CLAIM_MAP.tsv) links mathematical claims to Lean declarations. The [passage inventory](PROOF_STEPS.tsv) also covers definitions, historical attributions and bibliographical material.
 
-The expanded PDF has MD5 `0847d4924cb1c71a088bdced89e8ea4f`. Its Lean claim covers the eight numbered results of Sections 1–5. The five Discussion citations locate additional results in the expanded companion, an unrefereed manuscript. The companion is reference [13] in the focused paper and [16] in the expanded paper. The added historical citations in the introduction and Figure 1 supply no new Lean premises. The three open questions are recorded separately in the focused passage inventory.
+The expanded PDF has MD5 `09920c1570f6d864d415a70b2a37ed1f`. Its Lean claim covers the eight numbered results of Sections 1–5. The five Discussion citations locate additional results in the expanded companion, an unrefereed manuscript. The companion is reference [13] in the focused paper and [16] in the expanded paper. The added historical citations in the introduction and Figure 1 supply no new Lean premises. The three open questions are recorded separately in the focused passage inventory.
 
 The comparator checks 214 declarations. The current printed claim rows refer to 210. Four auxiliary results on strict open-disk factors and limiting dilations remain in the reader and comparator: `Goodman.schwarz_of_disk_factor`, `Goodman.strict_of_disk_factor`, `Goodman.dilation_modulus`, and `Goodman.dilation_sharp_limit`.
 
