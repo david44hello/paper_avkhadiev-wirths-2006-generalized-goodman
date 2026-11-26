@@ -1,5 +1,7 @@
 # The generalized Goodman conjecture
 
+The paper: https://doi.org/10.5281/zenodo.24570830
+
 ## What is in this repository?
 
 - The [Lean directory](lean/) contains the statements, proofs and verification instructions for the generalized Goodman coefficient bound and its geometric consequences.
